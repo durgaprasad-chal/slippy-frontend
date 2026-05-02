@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Slippy — The smartest billing app for Indian restaurants</title>
-<meta name="description" content="Bill faster. Track sales. Check your shops from anywhere. All from one simple Android app.">
+<title>Slippy — The smartest billing app for Indian food stalls</title>
+<meta name="description" content="From idly stalls to biryani shops. Bill faster, track sales and check all your counters from your personal phone.">
 <link rel="stylesheet" href="styles.css">
 <style>
 /* Comparison-table local styles */
@@ -27,6 +27,9 @@ table.compare td.them{color:var(--ink-500)}
 .why-card p{color:var(--ink-700);line-height:1.55;font-size:15px}
 /* Two-plan pricing */
 .pricing-row{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:920px;margin:0 auto}
+.pricing-row-3{grid-template-columns:1fr 1fr 1fr;max-width:1180px;align-items:start}
+.pricing-row-3 .plan.pro{transform:translateY(-12px)}
+@media (max-width:980px){.pricing-row-3{grid-template-columns:1fr;max-width:520px}.pricing-row-3 .plan.pro{transform:none}}
 @media (max-width:780px){.pricing-row{grid-template-columns:1fr}}
 .plan{background:#fff;border-radius:24px;padding:36px 30px;border:1px solid var(--ink-200);box-shadow:var(--shadow-card);position:relative}
 .plan.pro{border:2px solid var(--teal-700);box-shadow:var(--shadow-card-2)}
@@ -79,9 +82,9 @@ table.compare td.them{color:var(--ink-500)}
   <div class="wrap">
     <div class="row">
       <div>
-        <div class="eyebrow reveal"><span class="dot"></span>Made in India · For Indian restaurants</div>
-        <h1 class="reveal d1">The smartest billing app for <span class="em">Indian restaurants</span></h1>
-        <p class="sub reveal d2">Bill faster. Track sales. Check your shops from anywhere. All from one simple Android app.</p>
+        <div class="eyebrow reveal"><span class="dot"></span>Made in India · For Indian food stalls</div>
+        <h1 class="reveal d1">The smartest billing app for <span class="em">Indian food stalls</span></h1>
+        <p class="sub reveal d2">From idly stalls to biryani shops. Bill faster, track sales and check all your counters from your personal phone.</p>
         <div class="ctas reveal d3">
           <span class="btn btn-primary btn-disabled">
             <svg width="18" height="20" viewBox="0 0 18 20" fill="none"><path d="M0.5 1L13 10L0.5 19V1Z" fill="#0F6E56"/><path d="M0.5 1L9 9.4L13 10L0.5 1Z" fill="#0F6E56" fill-opacity="0.7"/><path d="M0.5 19L9 10.6L13 10L0.5 19Z" fill="#0F6E56" fill-opacity="0.5"/></svg>
@@ -137,20 +140,20 @@ table.compare td.them{color:var(--ink-500)}
     <div class="steps">
       <div class="step reveal d1">
         <div class="num">01</div>
-        <h3>WhatsApp us to get started</h3>
-        <p>Send us your restaurant name. We create your account and share login credentials. Takes less than 5 minutes.</p>
+        <h3>WhatsApp us to start</h3>
+        <p>Tell us your hotel name and your phone number on WhatsApp. We create your account and send your login details. Takes less than 5 minutes. No paperwork. No contracts.</p>
         <span class="tag">5 min</span>
       </div>
       <div class="step reveal d2">
         <div class="num">02</div>
-        <h3>Set up your menu</h3>
-        <p>Login to Slippy on your Android phone or tablet. Add categories and items, set prices, choose which items go to kitchen, set up split billing if needed. Ready to bill.</p>
-        <span class="tag">Guided</span>
+        <h3>Add your menu</h3>
+        <p>Open Slippy on any Android. Add categories — Tiffins, Rice, Curries, Beverages, Snacks. Add items with prices. Add sizes where needed: Thums Up 200ml/500ml/1L, Biryani Half/Full. Mark which items go to kitchen. Done in 10 minutes.</p>
+        <span class="tag">10 min</span>
       </div>
       <div class="step reveal d3">
         <div class="num">03</div>
         <h3>Start billing</h3>
-        <p>Tap items to build order. Print receipt instantly. Kitchen gets an automatic order ticket. Check all your sales from your personal phone anytime.</p>
+        <p>Customer orders idly vada. Tap idly. Tap vada. Done. Receipt prints in seconds. Kitchen gets the ticket. Cashier takes cash or UPI. You see the sale on your phone from home in real time.</p>
         <span class="tag">Same day</span>
       </div>
     </div>
@@ -162,7 +165,7 @@ table.compare td.them{color:var(--ink-500)}
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow-pill reveal">Features</div>
-      <h2 class="section-title reveal d1">Everything an Indian restaurant needs</h2>
+      <h2 class="section-title reveal d1">Everything an Indian food stall needs</h2>
       <p class="section-sub reveal d2">Built for the chaos of a real kitchen — billing, splits, kitchen tickets, sales tracking and multi-shop. Nothing extra.</p>
     </div>
     <div class="features-grid">
@@ -172,24 +175,34 @@ table.compare td.them{color:var(--ink-500)}
         <p>Tap items to build an order. Print receipt in seconds. Works with Bluetooth and WiFi thermal printers. Works offline — always.</p>
       </div>
       <div class="feat reveal d1">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="7" stroke-dasharray="2 2"/><circle cx="12" cy="12" r="10" stroke-dasharray="3 3"/></svg></div>
+        <h3>One item, many sizes</h3>
+        <p>Thums Up in 200ml, 500ml and 1 litre bottle? Chicken biryani as half plate or full plate? Samosa as single or plate of four? Add one item with all its options — your menu stays clean and short. Cashier taps the item and picks the size in one second.</p>
+      </div>
+      <div class="feat reveal d2">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg></div>
+        <h3>Bill by voice in busy rush</h3>
+        <p>Morning breakfast rush with 10 customers waiting? Hold the mic and say “masala dosa two, cutting chai three”. Slippy finds the items, shows you the match and waits for your tap before adding. No wrong bills. No missed orders. Just faster billing when the counter is packed.</p>
+      </div>
+      <div class="feat reveal d1">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg></div>
         <h3>Smart split billing</h3>
-        <p>Each category prints on a separate receipt — tiffins on one bill, tea and coffee on another, juices on a third. Customers get neat receipts per counter. No other POS does this so simply.</p>
+        <p>Tiffin counter and tea counter under one roof? Each gets its own separate receipt automatically. Idly, dosa and vada on one bill. Tea and coffee on another. Customer pays each counter separately without any confusion. Just set it once and forget.</p>
       </div>
       <div class="feat reveal d2">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg></div>
-        <h3>Automatic kitchen tickets</h3>
-        <p>Mark categories as “Send to kitchen.” Every bill prints a kitchen order ticket automatically. Kitchen prepares while cashier bills — no extra button needed.</p>
+        <h3>Kitchen gets the order instantly</h3>
+        <p>Cashier bills at the counter. Kitchen printer fires the order ticket automatically. Cook sees “Masala Dosa ×2, Vada ×3” and starts immediately. No shouting across the counter. No missed items. Every bill automatically sends to kitchen — no extra button needed.</p>
       </div>
       <div class="feat reveal d3">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg></div>
-        <h3>Check sales from anywhere</h3>
-        <p>Open Slippy on your personal phone anytime. See today's sales live. Cash vs UPI breakdown. All your shops in one view. Works on any phone — at no extra cost.</p>
+        <h3>Watch all your dhabas from your phone</h3>
+        <p>Running a morning tiffin centre and an evening snacks stall? Open Slippy on your personal phone and see both counters live. Today's bills. Cash collected. UPI received. All from wherever you are. No extra device. No extra cost. Both plans include this free.</p>
       </div>
       <div class="feat reveal d4">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></div>
-        <h3>WhatsApp as your ledger</h3>
-        <p>Every settlement report shared to WhatsApp. Server data: 7 days. Your WhatsApp: forever. Tax time? Open WhatsApp and see every day's sales. No accountant needed.</p>
+        <h3>Your WhatsApp is your daily khata</h3>
+        <p>Every shift settlement shared to WhatsApp in one tap. Monday morning Rs.4,200. Tuesday Rs.3,800. Wednesday Rs.5,100. Your WhatsApp chat becomes your permanent sales record. Open it any day, any month, any year. Tax time? Show your CA the WhatsApp history. No app needed. No accountant needed. It is all there.</p>
       </div>
       <div class="feat reveal d5">
         <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V7l9-4 9 4v14"></path><path d="M9 21v-9h6v9"></path><line x1="3" y1="21" x2="21" y2="21"></line></svg></div>
@@ -215,13 +228,14 @@ table.compare td.them{color:var(--ink-500)}
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow-pill reveal">Why Slippy</div>
-      <h2 class="section-title reveal d1">Why restaurant owners choose Slippy</h2>
+      <h2 class="section-title reveal d1">Why food stall owners choose Slippy</h2>
     </div>
     <div class="why-grid">
-      <div class="why-card reveal"><div class="num">01</div><h3>Split billing no other POS offers</h3><p>Tiffins, tea and juice each print on their own receipt automatically. No manual work. No complexity.</p></div>
-      <div class="why-card reveal d1"><div class="num">02</div><h3>Your WhatsApp is your permanent record</h3><p>Every shift settlement shared to WhatsApp. Open your chat anytime to see months of sales history. Forever.</p></div>
-      <div class="why-card reveal d2"><div class="num">03</div><h3>Check all shops from your personal phone</h3><p>Open Slippy on your phone, see live sales from all your shops. No extra device. No extra cost.</p></div>
-      <div class="why-card reveal d3"><div class="num">04</div><h3>Never lose data even if tablet breaks</h3><p>Your menu and reports are backed up to cloud. New tablet? Login and everything is restored.</p></div>
+      <div class="why-card reveal"><div class="num">01</div><h3>Split billing that tiffin hotels actually need</h3><p>Idly counter and tea counter each print their own receipt automatically. No manual work. No separate billing machines. Two receipts from one tap of Print and Bill. Only Slippy does this simply.</p></div>
+      <div class="why-card reveal d1"><div class="num">02</div><h3>Your WhatsApp chat is your permanent sales khata</h3><p>Every evening settlement goes to WhatsApp in one tap. Scroll back any day and see exactly what was collected. GST filing, bank loan proof, CA's monthly report — everything is in your WhatsApp chat. Free. Forever.</p></div>
+      <div class="why-card reveal d2"><div class="num">03</div><h3>See your hotel sales while sitting at home</h3><p>Open Slippy on your personal phone. See today's idly dosa sales, cash collected, UPI received — live from your counter. Works for all your shops together. No extra cost.</p></div>
+      <div class="why-card reveal d3"><div class="num">04</div><h3>New tablet? Old tablet broke? No problem.</h3><p>Your menu and reports are backed up. Buy any new Android from Rs.9,000. Login to Slippy. Your complete menu is back in seconds. Never set up your menu from scratch again.</p></div>
+      <div class="why-card reveal d4"><div class="num">05</div><h3>Thums Up in three sizes, one menu entry</h3><p>200ml, 500ml and 1 litre all under one Thums Up item. Cashier taps Thums Up, picks the bottle size, done. Same for biryani half and full, chai cutting or full glass, samosa single or plate. Clean menu. Fast billing.</p></div>
     </div>
   </div>
 </section>
@@ -234,20 +248,22 @@ table.compare td.them{color:var(--ink-500)}
       <h2 class="section-title reveal d1">If you serve food, Slippy fits</h2>
     </div>
     <div class="who-grid">
-      <div class="who-item reveal"><div class="emo">🍳</div><div class="name">Breakfast hotels</div></div>
-      <div class="who-item reveal d1"><div class="emo">☕</div><div class="name">Tea &amp; coffee stalls</div></div>
-      <div class="who-item reveal d2"><div class="emo">🥘</div><div class="name">Dhabas &amp; restaurants</div></div>
-      <div class="who-item reveal d3"><div class="emo">🍔</div><div class="name">Fast food centers</div></div>
-      <div class="who-item reveal d1"><div class="emo">🎂</div><div class="name">Bakeries</div></div>
-      <div class="who-item reveal d2"><div class="emo">🥤</div><div class="name">Juice shops</div></div>
-      <div class="who-item reveal d3"><div class="emo">🍱</div><div class="name">Tiffin centers</div></div>
-      <div class="who-item reveal d4"><div class="emo">🏪</div><div class="name">Multi-counter shops</div></div>
+      <div class="who-item reveal"><div class="emo">🍳</div><div class="name">Idly &amp; dosa hotels</div></div>
+      <div class="who-item reveal d1"><div class="emo">☕</div><div class="name">Chai &amp; filter coffee stalls</div></div>
+      <div class="who-item reveal d2"><div class="emo">🍗</div><div class="name">Chicken &amp; mutton shops</div></div>
+      <div class="who-item reveal d3"><div class="emo">🥘</div><div class="name">Biryani &amp; meals centers</div></div>
+      <div class="who-item reveal d1"><div class="emo">🥙</div><div class="name">Pav bhaji &amp; chaat counters</div></div>
+      <div class="who-item reveal d2"><div class="emo">🎂</div><div class="name">Bakeries &amp; bun shops</div></div>
+      <div class="who-item reveal d3"><div class="emo">🥤</div><div class="name">Juice &amp; lassi bars</div></div>
+      <div class="who-item reveal d4"><div class="emo">🌮</div><div class="name">Parotta &amp; kurma stalls</div></div>
+      <div class="who-item reveal"><div class="emo">🧆</div><div class="name">Bajji &amp; bonda shops</div></div>
+      <div class="who-item reveal d1"><div class="emo">🏪</div><div class="name">Multi-counter tiffin hotels</div></div>
     </div>
     <div class="who-callout reveal">
       <div class="badge">🇮🇳</div>
       <div>
         <h3>Especially built for</h3>
-        <p>Owners with 1–3 shops · Anyone using Android · Restaurants with 1–5 staff · Shops needing split billing · Owners who want to check sales from their phone.</p>
+        <p>Owners running 1–3 counters · Hotels open 6 AM to 10 PM · Busy morning breakfast rush · Shops with tiffin + tea counter · Stalls with half &amp; full plate options · Any stall using an Android phone · Owners who check sales from home.</p>
       </div>
     </div>
   </div>
@@ -265,8 +281,10 @@ table.compare td.them{color:var(--ink-500)}
       <table class="compare">
         <thead><tr><th>Feature</th><th class="s">Slippy</th><th>Others</th></tr></thead>
         <tbody>
-          <tr><td class="feat-name">Price</td><td class="us">Rs.199 / month</td><td class="them">Rs.2,000–5,000 / month</td></tr>
+          <tr><td class="feat-name">Price</td><td class="us">Rs.99 / month</td><td class="them">Rs.1,000–5,000 / month</td></tr>
           <tr><td class="feat-name">Split billing</td><td class="us">✅ Automatic</td><td class="them">❌ Not available</td></tr>
+          <tr><td class="feat-name">Item sizes &amp; variants</td><td class="us">✅ One item, all sizes</td><td class="them">❌ Separate items needed</td></tr>
+          <tr><td class="feat-name">Voice ordering</td><td class="us">✅ Hold and speak</td><td class="them">❌ Not available</td></tr>
           <tr><td class="feat-name">Kitchen tickets</td><td class="us">✅ Auto KOT</td><td class="them">⚠️ Complex setup</td></tr>
           <tr><td class="feat-name">Check sales on phone</td><td class="us">✅ Free, included</td><td class="them">❌ Extra cost</td></tr>
           <tr><td class="feat-name">WhatsApp reports</td><td class="us">✅ Forever</td><td class="them">❌ Not available</td></tr>
@@ -285,51 +303,64 @@ table.compare td.them{color:var(--ink-500)}
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow-pill reveal">Pricing</div>
-      <h2 class="section-title reveal d1">Two simple plans. Everything included.</h2>
+      <h2 class="section-title reveal d1">Three simple plans. Everything included.</h2>
       <p class="section-sub reveal d2">First month FREE. No credit card needed. Cancel anytime.</p>
     </div>
-    <div class="pricing-row">
+    <div class="pricing-row pricing-row-3">
       <div class="plan reveal">
-        <div class="pname">Basic</div>
-        <div class="price-row"><span class="amt">₹199</span><span class="per">/ month</span></div>
+        <div class="pname">Starter</div>
+        <div class="price-row"><span class="amt">₹99</span><span class="per">/ month</span></div>
         <div class="scope">For a single shop</div>
         <ul>
           <li><span class="v">✓</span>1 billing device</li>
           <li><span class="v">✓</span>Unlimited daily bills</li>
-          <li><span class="v">✓</span>Auto kitchen tickets (KOT)</li>
           <li><span class="v">✓</span>Smart split billing</li>
-          <li><span class="v">✓</span>Check sales from your phone</li>
+          <li><span class="v">✓</span>Kitchen order tickets (KOT)</li>
+          <li><span class="v">✓</span>Item variants &amp; sizes</li>
+          <li><span class="v">✓</span>Voice ordering</li>
+          <li><span class="v">✓</span>Admin view on your phone</li>
           <li><span class="v">✓</span>WhatsApp settlement reports</li>
-          <li><span class="v">✓</span>Cloud backup — never lose data</li>
-          <li><span class="v">✓</span>Works with any printer</li>
-          <li><span class="v">✓</span>Works offline always</li>
+          <li><span class="v">✓</span>Cloud backup</li>
+          <li><span class="v">✓</span>Works offline</li>
         </ul>
         <div class="cta-row" style="margin-top:24px"><a href="https://wa.me/917794024636" class="btn btn-teal" target="_blank" rel="noopener" style="width:100%;justify-content:center">Start on WhatsApp →</a></div>
       </div>
       <div class="plan pro reveal d1">
-        <div class="ribbon">Most popular</div>
-        <div class="pname" style="color:var(--teal-700)">Pro</div>
-        <div class="price-row"><span class="amt">₹399</span><span class="per">/ month</span></div>
+        <div class="ribbon">⭐ Most popular</div>
+        <div class="pname" style="color:var(--teal-700)">Standard</div>
+        <div class="price-row"><span class="amt">₹199</span><span class="per">/ month</span></div>
+        <div class="scope">For 2-shop owners — most common in India</div>
+        <ul>
+          <li><span class="v">✓</span>2 billing devices</li>
+          <li><span class="v">✓</span>2 independent menus</li>
+          <li><span class="v">✓</span>Check both shops from phone</li>
+          <li><span class="v">✓</span>Everything in Starter</li>
+        </ul>
+        <div class="cta-row" style="margin-top:24px"><a href="https://wa.me/917794024636" class="btn btn-teal" target="_blank" rel="noopener" style="width:100%;justify-content:center">Start on WhatsApp →</a></div>
+      </div>
+      <div class="plan reveal d2">
+        <div class="pname">Pro</div>
+        <div class="price-row"><span class="amt">₹299</span><span class="per">/ month</span></div>
         <div class="scope">For multi-shop owners</div>
         <ul>
           <li><span class="v">✓</span>3 billing devices</li>
           <li><span class="v">✓</span>3 independent menus</li>
-          <li><span class="v">✓</span>Check all shops from one phone</li>
-          <li><span class="v">✓</span>Combined total across all shops</li>
-          <li><span class="v">✓</span>Everything in Basic plan</li>
+          <li><span class="v">✓</span>Check all shops from phone</li>
+          <li><span class="v">✓</span>See combined totals</li>
+          <li><span class="v">✓</span>Everything in Standard</li>
         </ul>
         <div class="cta-row" style="margin-top:24px"><a href="https://wa.me/917794024636" class="btn btn-teal" target="_blank" rel="noopener" style="width:100%;justify-content:center">Start on WhatsApp →</a></div>
       </div>
     </div>
-    <div class="both-card reveal d2" style="max-width:920px;margin:30px auto 0">
-      <h4>Both plans include</h4>
+    <div class="both-card reveal d2" style="max-width:1180px;margin:30px auto 0">
+      <h4>All plans include</h4>
       <div class="b-grid">
         <div>✅ Cloud backup of your data</div>
-        <div>✅ Check sales on personal phone</div>
+        <div>✅ Admin view on personal phone</div>
         <div>✅ WhatsApp settlement reports</div>
         <div>✅ Split billing</div>
         <div>✅ Kitchen order tickets</div>
-        <div>✅ Works offline</div>
+        <div>✅ Item variants &amp; voice ordering</div>
         <div>✅ Any Android phone or tablet</div>
         <div>✅ Any thermal printer</div>
       </div>
@@ -401,11 +432,11 @@ table.compare td.them{color:var(--ink-500)}
           <div class="it"><div class="lab">Languages</div><div class="v">Telugu · Hindi · English</div></div>
         </div>
         <div class="steps-mini reveal d5">
-          <div class="si"><div class="n">01</div><div class="t">WhatsApp us your name &amp; restaurant name</div></div>
-          <div class="si"><div class="n">02</div><div class="t">We create your account in minutes</div></div>
-          <div class="si"><div class="n">03</div><div class="t">Download the Slippy app</div></div>
-          <div class="si"><div class="n">04</div><div class="t">Login and add your menu</div></div>
-          <div class="si"><div class="n">05</div><div class="t">Start billing same day!</div></div>
+          <div class="si"><div class="n">01</div><div class="t">WhatsApp us your hotel name &amp; phone number</div></div>
+          <div class="si"><div class="n">02</div><div class="t">We create your Slippy account in less than 5 minutes</div></div>
+          <div class="si"><div class="n">03</div><div class="t">Download Slippy from Play Store on your Android</div></div>
+          <div class="si"><div class="n">04</div><div class="t">Login and add your menu — idly, dosa, chai, everything</div></div>
+          <div class="si"><div class="n">05</div><div class="t">Print your first bill and never go back to manual!</div></div>
         </div>
       </div>
 
@@ -419,7 +450,7 @@ table.compare td.them{color:var(--ink-500)}
         </div>
         <div class="msgs">
           <div class="msg us">Hi, want to start using Slippy for my dhaba in Hyderabad <span class="ti">10:14 AM</span></div>
-          <div class="msg them">Welcome 🙏 Send your name and restaurant name, we'll set you up in 5 mins. <span class="ti" style="color:var(--ink-500)">10:15 AM</span></div>
+          <div class="msg them">Welcome 🙏 Send your name and stall name, we'll set you up in 5 mins. <span class="ti" style="color:var(--ink-500)">10:15 AM</span></div>
           <div class="msg us">Ravi · Sundar Tiffins, Banjara Hills <span class="ti">10:16 AM</span></div>
           <div class="msg them">Account ready. Login: 9876543210 / PIN sent. Want a quick call to add menu? <span class="ti" style="color:var(--ink-500)">10:17 AM</span></div>
         </div>
@@ -437,9 +468,11 @@ table.compare td.them{color:var(--ink-500)}
     </div>
     <div class="faq-list">
       <div class="faq-item reveal"><div class="faq-q">Do I need internet to use Slippy?<span class="plus">+</span></div><div class="faq-a">No. Slippy works completely offline for billing. You only need internet for the first setup and to sync your data. Your billing never stops even if internet is down.</div></div>
-      <div class="faq-item reveal d1"><div class="faq-q">Can I check my sales from my personal phone?<span class="plus">+</span></div><div class="faq-a">Yes! Open Slippy on any phone, login with your credentials, and see your sales reports without using a billing slot. Both Basic and Pro plans include this feature free.</div></div>
-      <div class="faq-item reveal"><div class="faq-q">What is split billing?<span class="plus">+</span></div><div class="faq-a">Split billing lets each category print on a separate receipt. For example, a breakfast hotel can print food items on one bill and tea on another — automatically when you tap Print &amp; Bill. No extra steps.</div></div>
-      <div class="faq-item reveal d1"><div class="faq-q">What is a kitchen order ticket?<span class="plus">+</span></div><div class="faq-a">A KOT is a small ticket that prints automatically to your kitchen printer every time a customer bills. It tells the kitchen which items to prepare. Works with a separate WiFi printer in the kitchen.</div></div>
+      <div class="faq-item reveal"><div class="faq-q">What is split billing?<span class="plus">+</span></div><div class="faq-a">Split billing lets your tiffin counter and tea counter each print their own receipt from one billing screen. Customer who orders idly dosa and tea gets two receipts — one from the tiffin side and one from the tea side. Your cashier just taps Print and Bill once. Set it up per category and Slippy handles the rest every single time automatically.</div></div>
+      <div class="faq-item reveal d1"><div class="faq-q">What is a kitchen order ticket?<span class="plus">+</span></div><div class="faq-a">When your cashier bills a masala dosa and vada, a small ticket prints automatically at your kitchen printer showing exactly what to make. Cook sees the order immediately without waiting for the cashier to shout or walk over. Works for any items you mark as kitchen items. No extra button for the cashier to press.</div></div>
+      <div class="faq-item reveal"><div class="faq-q">What are item variants?<span class="plus">+</span></div><div class="faq-a">Variants let you put all sizes of one item together. For example Thums Up with 200ml at Rs.20, 500ml at Rs.40 and 1 litre at Rs.60 all under one Thums Up entry in your menu. When cashier taps Thums Up a small popup shows the three sizes and they tap the right one. Works the same way for biryani half and full plate, coffee cutting or full, samosa single or plate of four. Your menu stays short and clean instead of having ten separate entries for the same item.</div></div>
+      <div class="faq-item reveal d1"><div class="faq-q">How does voice ordering work?<span class="plus">+</span></div><div class="faq-a">During morning rush hold the mic button and say what the customer ordered. Say “masala dosa two” and Slippy will find it in your menu and show you the match before adding it. You tap to confirm — nothing is added without your tap. If it did not catch clearly just retry. Works completely offline. No internet needed. Useful when the counter is busy and typing is too slow.</div></div>
+      <div class="faq-item reveal"><div class="faq-q">Can I check my sales from my personal phone?<span class="plus">+</span></div><div class="faq-a">Yes. Open Slippy on your personal phone and login with your credentials. You will see your counter sales in real time without using a billing slot. How many bills today. Cash collected. UPI received. If you have two or three counters you see all of them together. Both Basic and Pro plans include this at no extra cost.</div></div>
       <div class="faq-item reveal"><div class="faq-q">Which printers work with Slippy?<span class="plus">+</span></div><div class="faq-a">Any ESC/POS thermal printer. Popular options: Shreyans KP307, ATPOS AT402, TVS-E, Xprinter, Rongta. Both Bluetooth and WiFi printers work. You can connect two printers at once — one for receipts, one for the kitchen.</div></div>
       <div class="faq-item reveal d1"><div class="faq-q">Can I use it for multiple shops?<span class="plus">+</span></div><div class="faq-a">Yes. The Pro plan gives you 3 billing devices with 3 independent menus under one account. Check all your shops from your personal phone anytime.</div></div>
       <div class="faq-item reveal"><div class="faq-q">How are settlement reports shared on WhatsApp?<span class="plus">+</span></div><div class="faq-a">At the end of each shift, your cashier taps the Share button. The report opens in your phone's share menu — send to WhatsApp, save, or share via any app. Your WhatsApp becomes your permanent business ledger, far longer than the 7 days we keep on our servers.</div></div>
@@ -460,7 +493,7 @@ table.compare td.them{color:var(--ink-500)}
           <div class="mark">S</div>
           <div class="word">slippy</div>
         </div>
-        <p>The smartest billing app for Indian restaurants.</p>
+        <p>The smartest billing app for Indian food stalls.</p>
         <div class="tag">TAP · PRINT · DONE</div>
       </div>
       <div>
